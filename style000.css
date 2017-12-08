@@ -1,0 +1,284 @@
+body{
+    
+    
+    
+    height: 800px;
+    margin: auto;
+    background-image: url(HD-Wallpapers-C76.jpg);
+
+    
+}
+
+
+#menu{
+    
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 20px;
+    left: 220px;
+    
+   margin: auto;
+    
+    
+}
+
+
+#menu ul li{
+    height: 50px;
+    width: 130px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    background: white;
+    opacity:.7;
+	overflow: hidden;
+    
+   
+}
+#menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+	overflow: hidden;
+    animation: anim 2s infinite alternate;
+    
+   
+}
+#menu ul li :hover{
+    background:white;
+    opacity:.5;
+   
+}
+#menu ul li ul li{
+    display: none;
+}
+#menu ul li:hover ul li{
+    display: block;
+     animation: anim 2s infinite alternate;
+}
+
+
+@keyframes anim{
+    0%{
+        
+    }
+    100%{
+        font-size: 25px;
+    }
+}
+
+
+div#title p{
+    font: 15px Arial,Helvetica, sans-serif;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 120px;
+    width: 305px;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    opacity:0.5;
+    animation: move 2s infinite alternate;
+}
+
+@keyframes move{
+    
+    
+    0%{
+        
+       position:relative;left:80px;top:150px;
+        
+    }
+    100%{
+        
+        position:relative;left:80px;top:350px;
+    }
+     
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#glre ul{
+    
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+     text-decoration: none;
+      text-align: center;
+     background: orange;
+    opacity:.6;
+    line-height: 60px;
+    
+    
+}
+#glre ul li a{
+    
+    height: 60px;
+    width: 180px;
+  display: block;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 30px;
+   
+    color: white;
+    
+    
+}
+
+#glre ul:hover{
+    background: #643a79;
+     animation: animat .2s infinite alternate;
+}
+
+
+@keyframes animat{
+    0%{
+        
+    }
+    100%{
+        font-size: 40px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
+    
+    height: 200px;
+    background: #FEFCFF;
+    position: relative;
+    top: 530px;
+   
+}
+#lft{
+    
+    width: 800px;
+    float: left;
+    
+}
+#myinfo{
+    width: 300px;
+    float: left;
+    font: 15px Arial,Helvetica, sans-serif;
+    color:black;
+    position: relative;
+    left: 20px;
+    top: 120px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    opacity:.5;
+    animation: moveinfo 2s infinite alternate;
+}
+
+
+@keyframes moveinfo{
+    
+    
+    0%{
+        
+       position:relative;left:60px;top:10px;
+        
+    }
+    100%{
+        
+        position:relative;left:60px;top:100px;
+    }
+     
+    
+}
+
+#pic{
+   position: relative;
+   left: 200px;
+   top: 20px;
+   
+  
+    
+}
+#pic h3{
+    display: none;
+   
+}
+#pic img{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;  
+}
+#pic img:hover{
+    background: black;
+    opacity:.5;
+     
+    
+}
+
+
+#im1{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 80px;
+    opacity: .3;
+    border-radius: 50%;
+}
+
+#im2{
+    height: 50px;
+    width: 50px;
+     position: relative;
+    top: 80px;
+    opacity: .3;
+    border-radius: 50%;
+}
+
+#im3{
+    height: 50px;
+    width: 50px;
+     position: relative;
+    top: 80px;
+    opacity: .3;
+    border-radius: 50%;
+}
+#im1:hover{
+    opacity: 1;
+}
+#im2:hover{
+    opacity: 1;
+}
+#im3:hover{
+    opacity: 1;
+}
+
+
+

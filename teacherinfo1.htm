@@ -1,0 +1,140 @@
+
+
+<?php 
+    session_start();
+?>
+<?php
+$ID = $_SESSION["U_id"];
+
+if($ID == null){
+    
+    header("location:indextmp.php");
+    exit;
+}
+
+
+
+
+
+$li = mysql_connect("localhost","root","");
+      mysql_select_db("csebook",$li);
+
+$query=mysql_query("select * from image where id='$ID'");
+$row=mysql_fetch_object($query);
+
+?>
+
+<html>
+
+	<head>
+		<title>Home</title>
+		<link href="teacherinfo.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="main">
+			<!--<div class="banner">
+				<img src="1781763_662075757185153_1825342558_o.jpg" style="height: 20px;width: 800px;"/>
+			</div>-->
+			<div class="mainmenu">
+				<ul>
+					<li><a href="timeline0.php">Home</a></li>
+					<li><a href="">About CSE</a></li>
+					<li><a href="">Info</a>
+                       <ul>
+                            <li><a href="">Student Info</a></li><br />
+					        <li><a href="teacherinfo1.htm">Teacher Info</a></li><br />
+                       </ul>
+                    </li>
+                    
+		 	        <li><a href="indextmp.php?">Logout</a></li>
+                    <li><a href="">Edit</a>
+                    
+                          <ul>
+                    
+                             <li><a href="editprofilelasr.php">Edit Profile</a></li>
+				          	 <li><a href="imageup.php">Update Image</a></li>
+                             <li><a href="editresult01.php">Edit Results</a></li>
+                          </ul>
+                    </li>
+                    
+                    <li><a href="signin1.php">Educational Links</a></li>
+                    <li><a href="">More</a>
+                    
+                             <ul>
+                             <li><a href="My Results">See Results</a></li>
+                             </ul>
+                    
+                    
+                    </li>
+                
+				</ul>
+			</div>
+			<div class="indexa">
+            <div class="saleh">
+            <img src="salehsir.jpg"/>
+            <h3>Saleh Ahmed</h3>
+            <h4>Chairman</h4>
+           <a href=""><img  src="fbicon1.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="twiterlogo.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="googlelogo.jpg" alt="Facebook"/></a>
+            </div>
+            <div class="bawali">
+            <img  src="bawalisir.jpg"/>
+            <h3>Mrinal Kanti Bawali</h3>
+            <h4>Assistant professor</h4>
+            
+            <a href=""><img  src="fbicon1.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="twiterlogo.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="googlelogo.jpg" alt="Facebook"/></a>
+            </div>
+            </div>
+            <div class="indexb">
+            <div class="sojal">
+            
+            <img src="sojolsir.jpg"/>
+            <h3>Sajal Halder</h3>
+            <h4>Lecturer</h4>
+            
+            <a href=""><img  src="fbicon1.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="twiterlogo.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="googlelogo.jpg" alt="Facebook"/></a>
+            </div>
+            <div class="jamal">
+            
+            <img  src="jamalsir.jpg"/>
+            <h3>Md Jamal Uddin</h3>
+             <h4>Lecturer</h4>
+             
+             <a href=""><img  src="fbicon1.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="twiterlogo.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="googlelogo.jpg" alt="Facebook"/></a>
+            </div>
+            </div>
+            <div class="indexc">
+            <div class="akkas">
+            <img  src="akkassir.jpg"/>
+            <h3>Akkas Ali</h3>
+             <h4>Lecturer</h4>
+             
+             <a href=""><img  src="fbicon1.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="twiterlogo.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="googlelogo.jpg" alt="Facebook"/></a>
+            
+            </div>
+            <div class="nesar">
+            <img src="nesarsir.jpg"/>
+            <h3>Neserul Huque</h3>
+             <h4>Lecturer</h4>
+             
+             <a href=""><img  src="fbicon1.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="twiterlogo.jpg" alt="Facebook"/></a>
+            <a href=""><img  src="googlelogo.jpg" alt="Facebook"/></a>
+            </div>
+            </div>
+            
+            
+            
+            
+		</div>
+	</body>
+</html>

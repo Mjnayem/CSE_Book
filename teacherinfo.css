@@ -1,0 +1,256 @@
+
+
+@charset "utf-8";
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+
+body{font-family:italic;font-size:15px;line-height:20px;color:#000000;background:url(images/bgi.jpg)repeat fixed #ddd}
+
+
+div.main div.mainmenu ul{
+    list-style: none;
+
+}
+
+
+.main{width:960px;margin:0px auto;display:black;overflow:hidden;background:url(microphone1.jpg)}
+
+
+
+
+
+div.main div.mainmenu ul li{
+    background-color: #e14169;
+    border: 1px solid white;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+     border-radius: 10px;
+     margin: 2px;
+     padding: 2px;
+}
+div.main div.mainmenu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+    
+    
+}
+div.main div.mainmenu ul li a:hover {
+    
+    background-color: #323173;
+    border-radius: 10px;
+}
+div.main div.mainmenu ul ul
+{
+   position: absolute; 
+   display: none;
+   
+}
+div.main div.mainmenu ul li:hover > ul
+{
+    display: block;
+    
+}
+
+.main{width:960px;margin:0px auto;display:black;overflow:hidden;background:url(microphone1.jpg)}
+.banner{}
+.mainmenu{overflow:hidden}
+
+.indexa{
+    height: 300px;
+    border-bottom: 3px solid #008B00;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.saleh{
+   float: left;
+    height: 300px;
+    width: 420px;
+    
+}
+.saleh img{
+     
+    width: 200px;
+    
+    height: 200px;
+    border-radius: 250px;
+  
+}
+.indexa h3{
+    font-size: 20px;
+    margin-left: 28px;
+    
+    
+}
+.saleh a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.indexa h4{
+    font-size: 20px;
+    margin-left: 28px;
+    
+    
+}
+
+.bawali{
+    
+    height: 300px;
+    width: 420px;
+     float: right;
+     
+    
+}
+.bawali img{
+    width:200px;
+  
+    height: 200px;
+    border-radius: 250px;
+}
+.bawali a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.indexb{
+    height: 300px;
+    border-bottom: 3px solid #008B00;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sojal{
+   float: left;
+    height: 300px;
+    width: 420px;
+    
+}
+.sojal img{
+     
+    width: 200px;
+    
+    height: 200px;
+    border-radius: 250px;
+  
+}
+.indexb h3{
+    font-size: 20px;
+    margin-left: 28px;
+    
+    
+}
+.sojal a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+.indexb h4{
+    font-size: 20px;
+    margin-left: 28px;
+    
+    
+}
+
+.jamal{
+    
+    height: 300px;
+    width: 420px;
+     float: right;
+     
+    
+}
+.jamal img{
+    width:200px;
+  
+    height: 200px;
+    border-radius: 250px;
+}
+.jamal a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.indexc{
+    height: 300px;
+    border-bottom: 3px solid #008B00;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.akkas{
+   float: left;
+    height: 300px;
+    width: 420px;
+    
+}
+.akkas img{
+     
+    width: 200px;
+    
+    height: 200px;
+    border-radius: 250px;
+  
+}
+.indexc h3{
+    font-size: 20px;
+    margin-left: 28px;
+    
+    
+}
+.indexc h4{
+    font-size: 20px;
+    margin-left: 28px;
+    
+    
+}
+
+.akkas a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.nesar{
+    
+    height: 300px;
+    width: 420px;
+     float: right;
+     
+    
+}
+.nesar img{
+    width:200px;
+  
+    height: 200px;
+    border-radius: 250px;
+}
+.nesar a img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
